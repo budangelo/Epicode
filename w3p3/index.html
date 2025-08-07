@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudaStore</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <h1 id="title">Buda Store</h1>
+    <button onclick="switchTittle()">Cambia H1! </button>
+    <button onclick="changeColor()">Dark Mode</button>
+    <button id="priceColor">Cambia il Colore!</button>
+    <main>
+        <div class="product-container">
+            <div class="card-product">
+                <img class="product-images" src="https://static.comet.it/b2c/public/e-cat/SAM08051P/SAM08051P-3d436ad778-0.jpg" alt="prodotto">
+                <div class="product-description">
+                    <h2>Samsung Galaxy S25</h2>
+                    <p>3 anni di Garanzia del produttore, Display 6.2'' FHD+ Dynamic AMOLED 2X, Fotocamera 50MP, RAM 12GB, 256GB, 4.000 mAh, Icyblue</p>
+                    <p class="price-product">711$</p>
+                </div>
+                        <a class="product-link" href="https://www.amazon.it/Samsung-Smartphone-Garanzia-produttore-Fotocamera/dp/B0DPL445MN/ref=sr_1_2_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1EE8TGXWXEXMF&dib=eyJ2IjoiMSJ9.zThKlkXj6HgUuWBF4xSbHPaD7RmyDfI0Qz5Q5SpHpmqKvmLon6b1KZ5yUL3_BK06g6W8fwgZXOvuw_cpNj6YXvqrOOHdRUS5AesJh3oFygry8mr-on Cliccare Qui!!!H6ubzVMoVF24SH__5I0_YtyzRdSBgPf9xMoY2NG0CQhee_aAeV05UmlkQAzwrR_Nxah6D-C649lYbwNP5L8i3AVsGEQKmHX9WyJ_vLuP_xjche0bD423graAW6YwhBWGxcJ4LYijuEj1fbjbf_OL7AYJgHNSpUaYw3mzGEadrxERYcfvfhe5bKcn370.m-5NbUVDueUhDNbyhywvnWT3al1bFh53v8hkYuwU_wA&dib_tag=se&keywords=smartphone&qid=1754037296&sprefix=smartph%2Caps%2C618&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank" rel="noopener noreferrer">Acquista</a> 
+                        <button class="btn-toggle" n>Nascondere</button>
+            </div>
+            <div class="card-product">
+                <img class="product-images" src= "https://m.media-amazon.com/images/I/61lF3Jns58L._UF1000,1000_QL80_.jpg" alt="prodotto">
+                <div class="product-description">
+                    <h2>Google Pixel 9</h2>
+                    <p>Android sbloccato con Gemini, fotocamera avanzata, batteria con 24 ore di autonomia e display Actua da 6,3" - Grigio creta, 128GB</p>
+                    <p class="price-product">597$</p>
+                </div>
+                    <a class="product-link" href="https://www.amazon.it/Google-Pixel-Smartphone-sbloccato-fotocamera/dp/B0D7TZNFG4/ref=sr_1_1_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1EE8TGXWXEXMF&dib=eyJ2IjoiMSJ9.zThKlkXj6HgUuWBF4xSbHPaD7RmyDfI0Qz5Q5SpHpmqKvmLon6b1KZ5yUL3_BK06g6W8fwgZXOvuw_cpNj6YXvqrOOHdRUS5AesJh3oFygry8mr-H6ubzVMoVF24SH__5I0_YtyzRdSBgPf9xMoY2NG0CQhee_aAeV05UmlkQAzwrR_Nxah6D-C649lYbwNP5L8i3AVsGEQKmHX9WyJ_vLuP_xjche0bD423graAW6YwhBWGxcJ4LYijuEj1fbjbf_OL7AYJgHNSpUaYw3mzGEadrxERYcfvfhe5bKcn370.m-5NbUVDueUhDNbyhywvnWT3al1bFh53v8hkYuwU_wA&dib_tag=se&keywords=smartphone&qid=1754037260&sprefix=smartph%2Caps%2C618&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"target="_blank" rel="noopener noreferrer">Acquista</a> 
+                    <button class="btn-toggle" >Nascondere</button>
+            </div>
+            <div class="card-product">
+                <img class="product-images" src="https://cdn.movertix.com/media/catalog/product/cache/image/1200x/r/e/redmi-note-14-5g-dual-sim-lavender-purple-256gb-and-8gb-ram.jpg" alt="prodotto">
+                <div class="product-description">
+                    <h2>Xiaomi Redmi Note 14</h2>
+                    <p>120Hz, display AMOLED da 6,67 pollici, 8+256 GB, smartphone con processore Dimensity 7025 Ultra e 108 MP AI tripla fotocamera, batteria da 5110 mAh</p>
+                    <p class="price-product">231$</p>
+                </div>
+                    <a class="product-link" href="https://www.amazon.it/Xiaomi-Redmi-Note-14-5G/dp/B0DSVJXTRT/ref=sr_1_2_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1M1E9ZPJG1MTX&dib=eyJ2IjoiMSJ9.AgoYw7Hsf6UxxSWgi0AkyhroOQAbkZ2PDxotZKd2htWLJpB7y7CuLR-Fb5ZyBaFYY5Zd9O71Jxrhi9uJfkPDjO7aOHFjGOLxcuQXAmQdA1I7Jcyak-hK0HbhwmsUT8cm-dDukkO1vxajUWNHUsmrahauoYIy5BE1ydexsE70qbNM3bHYX5mwioUOYlKWESm4Y8Sdeq15ntA4dijMXYx-pcg57idrQPqawY7EloSAbn57nK97RJBHJzy8sZedIuUqEh0CeuJCmCAcjTpNSXaVZdFqrzjjKnniy3OpVdH-tMg.XYMeJjcU9YYzMLGavbbKUKcN8cjjaVAtDPawPgVdaoI&dib_tag=se&keywords=smartphone+xiaomi&qid=1754037341&sprefix=smartphone+xiami%2Caps%2C236&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"target="_blank" rel="noopener noreferrer">Acquista</a>     
+                    <button class="btn-toggle" >Nascondere</button>           
+            </div>
+            <div class="card-product">
+                <img class="product-images" src="https://imageservice.asgoodasnew.com/1000/22308/51/title-0000.jpg" alt="prodotto">
+                <div class="product-description">
+                    <h2>Apple iPhone 16 Pro</h2>
+                    <p>Telefono 5G con Controllo fotocamera, Dolby Vision 4K a 120 fps e un’autonomia senza precedenti.</p>
+                    <p class="price-product">1.149$</p>
+                </div>
+                    <a class="product-link" href="https://www.amazon.it/Apple-iPhone-Pro-256-unautonomia/dp/B0DGJPWMZ3/ref=sr_1_1_sspa?crid=3T7F73QD6WG9H&dib=eyJ2IjoiMSJ9.ZAfQ9WUDG_yh1MR1DYniUlfDzRe8nvNtYXNyISKheiBr_ovSjnrHOrwDx5rJeKktomfYeQtp3kl1QBtozyT3EoprzRcDBjLlVPMrOlXgdFjG4d5eFomjr_HXBWJ8N3jmptSxCLXLXotckyHjgI02CAbxHQ7nG4W0Aj4DjMFFev1m1jyEgMkKkQ75VsEqZx_F_KJ885wCv5Ih3BZTlpDQACydJ_DfAexnxYzbybpWWhYblKRdApICl3uWMg_bw7ayVo2YCovfb5Un6rnMsjQkmq-8y2XrG1zloCg1wfN58Xw.DIHL37otasZ4Ku75C1c8yCKuZObLvTA-d_ZeJI2gg7g&dib_tag=se&keywords=iphone%2B16%2Bpro&qid=1754037383&sprefix=iphon%2Caps%2C271&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"target="_blank" rel="noopener noreferrer">Acquista</a>     
+                    <button class="btn-toggle">Nascondere</button>           
+            </div>
+            <div class="card-product">
+                <img  class="product-images" src="https://m.media-amazon.com/images/I/71r1rqMX20L._UF1000,1000_QL80_.jpg" alt="prodotto">
+                <div class="product-description">
+                    <h2>Samsung Galaxy Z Fold7</h2>
+                    <p>Smartphone AI pieghevole, 3 anni di Garanzia del produttore, RAM 12GB, 256GB, Display 6,5"/8''</p>
+                    <p class="price-product">2.199,$</p>
+                </div>
+                    <a class="product-link" href="https://www.amazon.it/gp/aw/d/B0FBGN6FWH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e0d7d4ec33471e88dfc1033caede59d8&hsa_cr_id=0&qid=1754037404&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_0_title&pd_rd_w=cAoUx&content-id=amzn1.sym.e71092c9-e769-4b03-9bb9-29ffec45440f%3Aamzn1.sym.e71092c9-e769-4b03-9bb9-29ffec45440f&pf_rd_p=e71092c9-e769-4b03-9bb9-29ffec45440f&pf_rd_r=9M9WHKVH49RW0NY1BG3Z&pd_rd_wg=d5Jp2&pd_rd_r=3aa581f2-a121-46b0-b573-1d2b23fd2310&th=1"target="_blank" rel="noopener noreferrer">Acquista</a>  
+                    <button class="btn-toggle">Nascondere</button>              
+            </div>
+        </div>
+    </main>
+    <section>
+        <textarea name="coment" placeholder="Lascia un commento!"></textarea>
+    </section>
+    <footer>
+        <h2>Buda Store</h2>
+        <p id="address">Via Giuseppe Verdi 123, 00184 Roma, Italia</p>
+        <div>
+            <p>tlf: +39 06 1234 5678</p>
+            <a href="#">Email: BudaStore@contatti.com</a>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
